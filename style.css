@@ -4,3 +4,88 @@
 font-family: 'Work Sans', sans-serif;
 }
 /* work sans end font */
+
+/* share styles */
+.btn-parimary{
+    border-radius: 8px;
+    background-color: rgb(172, 134, 38);
+    color: white;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
+
+/* header styles */
+header{
+    background-color: rgb(245, 198, 198) ;
+    padding: 50px 240px ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(17, 16, 16);
+}
+
+nav > ul {
+ display: flex;
+ list-style: none;
+}
+nav li {
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+}
+
+/* banner styles */
+
+.banner-contect{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto ;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(32, 23, 23) ;
+}
+.banner-description{
+    color: rgb(41, 33, 33);
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Responsive Media Quri*/
+/* Moblie divices */
+@media screen and (max-width:576px ) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet or midiyem divices */
+@media screen and (min-width:576px) and (max-width:960px) {
+  
+    header{
+        padding: 50px;
+    }
+  
+    nav{
+        flex-direction: column;
+    }
+}
